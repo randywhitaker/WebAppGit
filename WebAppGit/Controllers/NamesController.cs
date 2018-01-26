@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using MyLibrary;
 
 namespace WebAppGit.Controllers
 {
@@ -11,7 +12,8 @@ namespace WebAppGit.Controllers
   {
     public string[] get()
     {
-      return new string[] { "Tim", "Bob", "Sam", "All", "Dan", "Car", "Cat", "Van", "Mon", "Pat" };
+      var team = new Team();
+      return team.Names();
     }
   }
 }

@@ -11,7 +11,7 @@ namespace WebAppGit.Controllers
   {
     public string[] get()
     {
-      return new string[] { "Tim", "Bob", "Sam", "All", "Dan", "Car", "Cat" };
+      return new string[] { "Tim", "Bob", "Sam", "All", "Dan", "Car", "Cat", "Van", "Mon", "Pat" };
     }
   }
 }
